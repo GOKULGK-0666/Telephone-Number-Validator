@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telephone Number Validator</title>
+
+  <style >
+    body { 
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: rgb(255, 255, 255);
+    }
+
+    .container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.15);
+      padding: 30px;
+      border-radius: 12px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      width: 300px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 15px 0;
+      border: none;
+      border-radius: 6px;
+      outline: none;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin: 5px;
+      font-size: 15px;
+      background: #00c6ff;
+      color: white;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #0072ff;
+    }
+
+    #results-div {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body style="background-image: url('image/image..jpg'); background-size: cover; background-position: center;">
+
+  <div class="container">
+    <h1>Telephone Number Validator</h1>
+
+    <input id="user-input" type="text" placeholder="Enter a US phone number" />
+
+    <div>
+      <button id="check-btn">Check</button>
+      <button id="clear-btn">Clear</button>
+    </div>
+
+    <p id="results-div"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
